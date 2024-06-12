@@ -50,6 +50,3 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 ## Resultados Esperados
 
 - **Desempenho**: Espera-se que o HSE ofereça melhor desempenho em termos de tempo de execução devido à sua maior precisão e estabilidade.
-
-## Estrutura de Diretórios do Repositório
-
