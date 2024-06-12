@@ -25,7 +25,7 @@ O HSI é um oscilador interno que opera tipicamente a 16 MHz. Ele é conveniente
 - Menor precisão em comparação com HSE.
 - Pode ser influenciado por variações de temperatura e tensão.
 
-- ![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/c044afe8-c4da-4752-bf0d-18ea25366d05)
+![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/c044afe8-c4da-4752-bf0d-18ea25366d05)
 
 ## High-Speed External (HSE) Oscillator
 
@@ -45,7 +45,7 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 
 - O PLL é utilizado para multiplicar a frequência do oscilador de entrada (HSI ou HSE) para atingir a frequência máxima de operação do microcontrolador. No STM32F411, o PLL pode ser configurado para atingir uma frequência de até 100 MHz.
 
-- ![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/80f8e1f9-7e41-45c6-8169-3bff7c854ba9)
+![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/80f8e1f9-7e41-45c6-8169-3bff7c854ba9)
 
 
 ### Vantagens do PLL
@@ -58,7 +58,7 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 - Maior consumo de energia.
 - Configuração mais complexa.
 
-- ![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/c984aa8a-80d3-4b01-ade6-512f0cbecfbe)
+![image](https://github.com/MatKenji/HSI-vs-HSE-sm32f411/assets/169562589/c984aa8a-80d3-4b01-ade6-512f0cbecfbe)
 
 
 ## Metodologia de Comparação
@@ -68,7 +68,7 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 3. **Análise dos Dados**: Comparar os tempos de execução para avaliar o impacto de cada oscilador no desempenho do sistema.
 
 ## Resultados Esperados
-| Tarefa   | Tempo de Execução com HSI (ms)| Tempo de Execução com HSE (ms)  |            PLL                  |
+| Tarefa   | Tempo de Execução com HSI (ms)| Tempo de Execução com HSE (ms)  |            PLL (ms)             |
 |--------  |-------------------------------|-------------------------------- |-------------------------------- |
 | Tarefa 1 | 483 248                       | 755 992                         | 3 028 705                       |
 | Tarefa 2 | 483 249                       | 755 998                         | 3 028 712                       |
