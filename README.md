@@ -22,6 +22,7 @@ O HSI é um oscilador interno que opera tipicamente a 16 MHz. Ele é conveniente
 
 ### Desvantagens do HSI
 
+- Necessidade de componentes externos
 - Menor precisão em comparação com HSE.
 - Pode ser influenciado por variações de temperatura e tensão.
 
