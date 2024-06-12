@@ -68,13 +68,13 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 3. **Análise dos Dados**: Comparar os tempos de execução para avaliar o impacto de cada oscilador no desempenho do sistema.
 
 ## Resultados Esperados
-| Tarefa   | Tempo de Execução com HSI (ms)| Tempo de Execução com HSE (ms)  |            PLL (ms)             |
-|--------  |-------------------------------|-------------------------------- |-------------------------------- |
-| Tarefa 1 | 483 248                       | 755 992                         | 3 028 705                       |
-| Tarefa 2 | 483 249                       | 755 998                         | 3 028 712                       |
-| Tarefa 3 | 483 248                       | 755 999                         | 3 028 713                       |
-| Tarefa 4 | 483 249                       | 755 999                         | 3 028 712                       |
-| Tarefa 5 | 483 248                       | 755 998                         | 3 028 709                       |
+| Tarefa   | Tempo de Execução com HSI 16MHz (ms)| Tempo de Execução com HSE 25MHz(ms)  |            PLL 100MHz(ms)             |
+|--------  |-------------------------------------|--------------------------------------|---------------------------------------|
+| Tarefa 1 | 483 248                             | 755 992                              | 3 028 705                             |
+| Tarefa 2 | 483 249                             | 755 998                              | 3 028 712                             |
+| Tarefa 3 | 483 248                             | 755 999                              | 3 028 713                             |
+| Tarefa 4 | 483 249                             | 755 999                              | 3 028 712                             |
+| Tarefa 5 | 483 248                             | 755 998                              | 3 028 709                             |
 
 ## Análise dos Resultados
 
