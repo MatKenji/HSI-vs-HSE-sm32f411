@@ -57,3 +57,6 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 | Tarefa 5 | 483 248                       | 755 998                         |
 
 - **Desempenho**: Espera-se que o HSE ofereça melhor desempenho em termos de tempo de execução devido à sua maior precisão e estabilidade.
+
+- **Nota:** Os arquivos de código fornecidos neste repositório foram desenvolvidos usando STM32CubeIDE. Devido a limitações de minha experiência com o STM32CubeIDE, a importação direta do projeto para o Git pode não ter sido feita da maneira mais eficiente ou padronizada. 
+
