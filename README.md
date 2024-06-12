@@ -48,5 +48,12 @@ O HSE é um oscilador externo que utiliza um cristal ou ressonador externo. Ele 
 3. **Análise dos Dados**: Comparar os tempos de execução para avaliar o impacto de cada oscilador no desempenho do sistema.
 
 ## Resultados Esperados
+| Tarefa   | Tempo de Execução com HSI (ms)| Tempo de Execução com HSE (ms)  |
+|--------  |-------------------------------|-------------------------------- |
+| Tarefa 1 | 483 248                       | 755 992                         |
+| Tarefa 2 | 483 249                       | 755 998                         |
+| Tarefa 3 | 483 248                       | 755 999                         |
+| Tarefa 4 | 483 249                       | 755 999                         |
+| Tarefa 5 | 483 248                       | 755 998                         |
 
 - **Desempenho**: Espera-se que o HSE ofereça melhor desempenho em termos de tempo de execução devido à sua maior precisão e estabilidade.
